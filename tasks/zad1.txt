@@ -1,0 +1,1 @@
+przejrzec klase console w c# i pobawic sie metodami
