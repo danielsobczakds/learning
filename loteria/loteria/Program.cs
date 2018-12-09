@@ -24,10 +24,10 @@ namespace loteria
             string Miasto = Console.ReadLine();
 
             Console.Write("Podaj numer telefonu: \n");
-            long Telefon = Convert.ToInt32(Console.ReadLine());
+            long Telefon = Convert.ToInt64(Console.ReadLine());
 
             Console.Write("Podaj numer PESEL: \n");
-            long Pesel = Convert.ToInt32(Console.ReadLine());
+            long Pesel = Convert.ToInt64(Console.ReadLine());
 
             Console.Write("Twoje dane osobowe: {0} {1}, lat {2}, zamieszkaly w miescie {3}, " +
                 "Numer telefonu: {4}, Numer PESEL: {5} \n", Imie, Nazwisko, Wiek, Miasto, Telefon, Pesel);
